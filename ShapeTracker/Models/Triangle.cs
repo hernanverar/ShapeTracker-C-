@@ -1,4 +1,8 @@
-public class Triangle
+namespace ShapeTracker.Models
 {
-  // Code for Triangle business logic will go here.
+  public class Triangle
+  {
+    // Code for Triangle business logic will go here.
+  }
+
 }

@@ -1,10 +1,14 @@
 using System;
+using ShapeTracker.Models; // can run with or without but this is the corret way.
 
-class Program
+namespace ShapeTracker
 {
-  static void Main()
+  class Program
   {
-    Triangle testTriangle = new Triangle();
-    Console.WriteLine(testTriangle.GetType());
+    static void Main()
+    {
+      ShapeTracker.Models.Triangle testTriangle = new ShapeTracker.Models.Triangle();
+      Console.WriteLine(testTriangle.GetType());
+    }
   }
 }
