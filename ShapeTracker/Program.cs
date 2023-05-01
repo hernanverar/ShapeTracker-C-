@@ -3,12 +3,16 @@ using ShapeTracker.Models; // can run with or without but this is the corret way
 
 namespace ShapeTracker
 {
-  class Program
+  public class Program
   {
     static void Main()
+
     {
-      ShapeTracker.Models.Triangle testTriangle = new ShapeTracker.Models.Triangle();
-      Console.WriteLine(testTriangle.GetType());
+    
+    Triangle testTriangle = new Triangle(3, 4, 5);
+    Console.WriteLine($"Side one of the triangle: {testTriangle.Side1}");
+    Console.WriteLine($"Side one of the triangle: {testTriangle.Side2}");
+    Console.WriteLine($"Side one of the triangle: {testTriangle.Side3}");
     }
   }
 }
